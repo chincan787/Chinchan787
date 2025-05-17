@@ -1,14 +1,18 @@
----
-layout: default
-title: Selamat Datang
----
+title: GenAI Sui Wallet
+description: An AI-powered Web3 wallet built on the Sui blockchain
+baseurl: "" # leave this empty for user or organization sites (e.g. chincan787.github.io)
+url: "https://chincan787.github.io" # replace with your GitHub Pages URL
 
-# Halo, saya Chincan787
+theme: minima # optional, only if you're using a default theme
 
-Selamat datang di website pribadi saya.  
-Saya sedang membangun berbagai proyek menarik di GitHub.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
 
-- **GitHub**: [@chincan787](https://github.com/chincan787)
-- **Email**: contoh@email.com
+markdown: kramdown
+kramdown:
+  input: GFM
 
-Baca [blog saya](./blog) untuk info terbaru.
+exclude:
+  - Gemfile
+  - Gemfile.lock
