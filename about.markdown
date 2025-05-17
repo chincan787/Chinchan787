@@ -1,6 +1,8 @@
 ---
-layout: post
-title: "Postingan Pertama Saya"
+layout: default
+title: Welcome
 ---
 
-Ini adalah tulisan pertama saya di blog. Nantikan update selanjutnya!
+## Selamat Datang
+
+GenAI Sui Wallet...
